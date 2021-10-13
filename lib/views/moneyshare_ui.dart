@@ -170,7 +170,7 @@ class _MoneyshareUIState extends State<MoneyshareUI> {
                 ),
               ),
               SizedBox(
-                height: 10.0,
+                height: 20.0,
               ),
               Padding(
                 padding: const EdgeInsets.only(
@@ -196,13 +196,16 @@ class _MoneyshareUIState extends State<MoneyshareUI> {
                   ),
                 ),
               ),
+              SizedBox(
+                height: 10.0,
+              ),
               Padding(
                 padding: const EdgeInsets.only(
                   left: 40.0,
                   right: 40.0,
                 ),
                 child: ElevatedButton.icon(
-                  onPressed: (){},
+                  onPressed: () {},
                   icon: Icon(
                     Icons.refresh,
                   ),
